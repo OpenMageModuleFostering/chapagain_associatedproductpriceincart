@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<package><name>Chapagain_AssociatedProductPriceInCart</name><version>0.1.0</version><stability>stable</stability><license>OSL v3.0</license><channel>community</channel><extends></extends><summary>An extension to use the associated product's price in shopping cart instead of the configurable product's price.</summary><description>This extension updates the configurable product's price to that of its associated product price when the configurable product is added to cart. So, the updated price (i.e. price of the associated product) is seen in the shopping cart.
+
+No extra configuration settings is to be made. Just install the module in your Magento shop and the module will work on the fly.
+
+Please note: 
+
+- You need to refresh cache after installing the module (System -&gt; Cache Management)
+- You need to disable compilation if it is enabled (System -&gt; Tools -&gt; Compilation)</description><notes>Initial version</notes><authors><author><name>Mukesh Chapagain</name><user>chapagain</user><email>mukesh.chapagain@gmail.com</email></author></authors><date>2017-02-22</date><time>4:15:55</time><compatible></compatible><dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies><contents><target name="mage"><dir name="app"><dir name="etc"><dir name="modules"><file name="Chapagain_AssociatedProductPriceInCart.xml" hash="5fd4266614d3e3b77ac1156d5a8c4122"/></dir></dir><dir name="code"><dir name="community"><dir name="Chapagain"><dir name="AssociatedProductPriceInCart"><dir name="Model"><file name="Observer.php" hash="2905abdcb7580594571f012a8d3c9fa7"/></dir><dir name="etc"><file name="config.xml" hash="ae39765b3528d6691e77599b9b4113b7"/></dir></dir></dir></dir></dir></dir></target></contents></package>
