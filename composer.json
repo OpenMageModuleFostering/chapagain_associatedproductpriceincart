@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Chapagain_AssociatedProductPriceInCart",
+    "name": "OpenMageModuleFostering\/Chapagain_AssociatedProductPriceInCart",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "An extension to use the associated product's price in shopping cart instead of the configurable product's price.",
     "authors": [
-    {
-        "name": "Mukesh Chapagain",
-        "email": "mukesh.chapagain@gmail.com"
-    }
-],
+        {
+            "name": "Mukesh Chapagain",
+            "email": "mukesh.chapagain@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
